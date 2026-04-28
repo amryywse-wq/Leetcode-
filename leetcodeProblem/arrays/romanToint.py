@@ -23,3 +23,6 @@ class Solution(object):
             if val[i] < val[i+1 if i < len(val)-1 else i]:
                 val[i] = val[i] * -1
         return sum(val)
+
+p = Solution()
+print(p.romanToInt("VII"))
