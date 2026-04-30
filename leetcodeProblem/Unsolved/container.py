@@ -30,4 +30,4 @@ class Solution(object):
     
 
 p = Solution()
-print(p.maxArea([8,1,1,1,1,1,1,1]))
+print(p.maxArea([8,1,1,1,1,1,7,1]))
