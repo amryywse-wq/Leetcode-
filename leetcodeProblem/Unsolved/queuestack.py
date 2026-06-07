@@ -1,7 +1,7 @@
 class MyQueue(object):
 
     def __init__(self):
-        self.x = self
+        
 
     def push(self, x):
         """

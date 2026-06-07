@@ -33,7 +33,7 @@ class Solution(object):
                     if j == 0 and i == 0 and len(grid) > 1:
                         if grid[i][j+1] == 1 :
                             perim -= 1
-                        if grid[i+1][j] == 1 :
+                        if grid[i+1][j] == 1 :  
                             perim -=1
                         
                         print("total = ", perim, "at = ", i, j)

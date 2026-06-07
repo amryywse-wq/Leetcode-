@@ -8,7 +8,18 @@ class Solution(object):
         
         candDict = {can : can for can in candidates}
 
-        return candDict
+        count = target
+        tempAns = []
+        ans = []
+        for num in candidates:
+            while count > 0 :
+                count -= num
+                tempAns.append(num)
+                if count in candDict :
+                    tempAns.append(candDict)
+                    ans.append(tempAns)
+                    count = target
+                
 
 
 p = Solution()
