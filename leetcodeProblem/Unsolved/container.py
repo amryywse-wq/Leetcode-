@@ -26,8 +26,8 @@ class Solution(object):
                 k = len(height)-1
            
         
-        return max, trHeight, avr, i
+        return max
     
 
 p = Solution()
-print(p.maxArea([8,1,1,1,1,1,7,1]))
+print(p.maxArea([1,1,1]))
